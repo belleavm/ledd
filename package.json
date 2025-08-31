@@ -1,0 +1,15 @@
+{
+    "name": "mi-web-vercel",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Base web estática con funciones Node en Vercel",
+    "scripts": {
+      "dev": "vercel dev",
+      "deploy": "vercel --prod"
+    },
+    "devDependencies": {},
+    "engines": {
+      "node": ">=18"
+    }
+  }
+  
