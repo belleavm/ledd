@@ -1,17 +1,10 @@
 {
-    "$schema": "https://openapi.vercel.sh/vercel.json",
-    "cleanUrls": true,
-    "framework": null,
-    "functions": {
-      "api/*.js": {
-        "runtime": "nodejs18.x",
-        "memory": 128,
-        "maxDuration": 10
-      }
-    },
-    "redirects": [],
-    "rewrites": [
-      { "source": "/", "destination": "/public/index.html" }
-    ]
-  }
-  
+  "cleanUrls": true,
+  "functions": {
+    "api/*.js": { "runtime": "nodejs20.x" }
+  },
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "^/$", "dest": "/public/index.html" }
+  ]
+}
