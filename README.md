@@ -12,6 +12,8 @@ git remote -v
 git remote remove origin
 # para conectar a un repositorio
 git remote add origin https://github.com/belleavm/ledd.git
+# installar next y react
+npm install next react react-dom
 ```
 
 Ahora, corre el servidor de desarrollo:
