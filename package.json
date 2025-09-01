@@ -1,15 +1,32 @@
 {
-    "name": "mi-web-vercel",
-    "version": "1.0.0",
-    "private": true,
-    "description": "Base web estática con funciones Node en Vercel",
-    "scripts": {
-      "dev": "vercel dev",
-      "deploy": "vercel --prod"
-    },
-    "devDependencies": {},
-    "engines": {
-      "node": ">=18"
-    }
+  "name": "yuuki_pe",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@nextui-org/react": "^2.4.1",
+    "@react-spring/web": "^9.7.3",
+    "@use-gesture/react": "^10.3.1",
+    "embla-carousel-autoplay": "^8.1.5",
+    "embla-carousel-class-names": "^8.1.5",
+    "embla-carousel-react": "^8.1.5",
+    "framer-motion": "^11.2.10",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.2.1",
+    "sharp": "^0.33.4",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
   }
-  
+}
