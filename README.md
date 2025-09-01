@@ -1,4 +1,4 @@
-# Mi Web en Vercel
+# La Energia del Dinero
 
 Web estática (HTML/CSS/JS) + APIs Node (Serverless Functions) en `api/`.
 
