@@ -1,10 +1,14 @@
-export const metadata = { title: "LEDD" };
+import './globals.css'
+
+export const metadata = {
+  title: 'La energía del dinero',
+  description: 'Landing del libro',
+}
+
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body style={{ margin: 0, fontFamily: 'system-ui, sans-serif' }}>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

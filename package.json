@@ -1,6 +1,6 @@
 {
-  "name": "yuuki_pe",
-  "version": "2.0.0",
+  "name": "ledd",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -24,6 +24,8 @@
     "uuid": "^10.0.0"
   },
   "devDependencies": {
+    "@types/node": "24.3.1",
+    "@types/react": "19.1.12",
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
     "postcss": "^8",

@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---- Estilos base ---- */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-yanbalblack font-montserrat;
+}
+
+/* ---- Titulares ---- */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold tracking-tight;
+}
+
+/* ---- Enlaces ---- */
+a {
+  @apply text-emerald-600 hover:text-emerald-700 transition-colors;
+}
+
+/* ---- Botones ---- */
+.btn {
+  @apply inline-flex items-center justify-center rounded-xl border border-emerald-600 bg-emerald-600 px-4 py-2 
+         text-white font-medium hover:bg-emerald-700 transition;
+}
+
+.btn-outline {
+  @apply inline-flex items-center justify-center rounded-xl border border-emerald-600 px-4 py-2 
+         text-emerald-700 hover:bg-emerald-50 font-medium transition;
+}
+
+/* ---- Etiquetas pequeñas ---- */
+.tag {
+  @apply rounded-full border px-3 py-1 text-sm;
+}
+
+/* ---- Listas con check ---- */
+.li {
+  @apply relative pl-6;
+}
+.li::before {
+  content: "✓";
+  @apply absolute left-0 top-0.5 text-emerald-600;
+}
