@@ -15,33 +15,33 @@
       "static/css/d22e13b8d591889a.css",
       "static/chunks/app/layout-73447860f415d36d.js"
     ],
-    "/about/page": [
+    "/la-energia-del-dinero/page": [
       "static/chunks/webpack-c8441f2d519541e3.js",
       "static/chunks/fd9d1056-749e5812300142af.js",
       "static/chunks/117-efad7214d41d45e3.js",
       "static/chunks/main-app-50db89ad69a0f052.js",
-      "static/chunks/app/about/page-81168f954929d305.js"
+      "static/chunks/app/la-energia-del-dinero/page-4884b4a56d41dff2.js"
     ],
     "/page": [
       "static/chunks/webpack-c8441f2d519541e3.js",
       "static/chunks/fd9d1056-749e5812300142af.js",
       "static/chunks/117-efad7214d41d45e3.js",
       "static/chunks/main-app-50db89ad69a0f052.js",
-      "static/chunks/app/page-bfb4cd3212ca1e74.js"
+      "static/chunks/app/page-3e5c2418bac9e7de.js"
     ],
-    "/la-energia-del-dinero/page": [
+    "/about/page": [
       "static/chunks/webpack-c8441f2d519541e3.js",
       "static/chunks/fd9d1056-749e5812300142af.js",
       "static/chunks/117-efad7214d41d45e3.js",
       "static/chunks/main-app-50db89ad69a0f052.js",
-      "static/chunks/app/la-energia-del-dinero/page-9765fec58b9a539b.js"
+      "static/chunks/app/about/page-c0c5efd3646d196e.js"
     ],
     "/contact/page": [
       "static/chunks/webpack-c8441f2d519541e3.js",
       "static/chunks/fd9d1056-749e5812300142af.js",
       "static/chunks/117-efad7214d41d45e3.js",
       "static/chunks/main-app-50db89ad69a0f052.js",
-      "static/chunks/app/contact/page-00dbe48c22e1ff44.js"
+      "static/chunks/app/contact/page-65005b8c20e6108a.js"
     ]
   }
 }
