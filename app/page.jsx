@@ -5,9 +5,17 @@ export default function Page() {
       <header className="sticky top-0 z-30 bg-white/70 backdrop-blur border-b">
         <nav className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <LogoPig size={28} />
-            <span className="font-semibold tracking-tight">La energía del dinero</span>
-          </div>
+            <div className="absolute -inset-8 -z-10 bg-emerald-100/50 rounded-[2rem] rotate-2" />
+                {/* LOGO */}
+                  <a href="/" className="inline-flex items-center gap-2">
+                    <img
+                      src="/la-energia-del-dinero-logo.png" 
+                      alt="La energía del dinero"
+                      className="h-8 w-8 object-contain rounded-md"
+                    />
+                    <span className="font-semibold tracking-tight">La energía del dinero</span>
+                  </a>
+            </div>
           <div className="hidden md:flex items-center gap-6 text-sm">
             <a href="#que-es" className="hover:text-emerald-600">El libro</a>
             <a href="#contenido" className="hover:text-emerald-600">Contenido</a>
@@ -39,7 +47,11 @@ export default function Page() {
           <div className="order-1 md:order-2 flex justify-center">
             <div className="relative w-[420px] max-w-full">
               <div className="absolute -inset-8 -z-10 bg-emerald-100/50 rounded-[2rem] rotate-2" />
-              <CoverArt />
+                <img
+                  src="/la-energia-del-dinero-mockup.png"
+                  alt="La energía del dinero Mockup del libro"
+                  className="w-full h-auto rounded-2xl"
+                />
             </div>
           </div>
         </div>
@@ -106,7 +118,11 @@ export default function Page() {
             </p>
           </div>
           <div className="flex md:justify-end">
-            <LogoPig size={88} />
+            <img
+              src="/la-energia-del-dinero-mockup-2.png"
+              alt="La energía del dinero"
+              className="h-120 w-120 object-contain"
+            />
           </div>
         </div>
       </section>
@@ -140,7 +156,13 @@ export default function Page() {
       <footer className="border-t">
         <div className="mx-auto max-w-6xl px-4 py-10 text-sm text-neutral-600 grid md:grid-cols-3 gap-6">
           <div className="space-y-2">
-            <div className="flex items-center gap-2 font-semibold"><LogoPig size={22} /> La energía del dinero</div>
+            <div className="flex items-center gap-2 font-semibold">
+                <img
+                  src="/la-energia-del-dinero-logo.png"
+                  alt="La energía del dinero"
+                  className="h-5 w-5 object-contain rounded"
+                />
+                La energía del dinero</div>
             <p>© {new Date().getFullYear()} La Energía del Dinero. Todos los derechos reservados.</p>
           </div>
           <div>
@@ -192,48 +214,6 @@ function Li({ children }) {
       <span className="absolute left-0 top-0.5 text-emerald-600" aria-hidden>✓</span>
       {children}
     </li>
-  );
-}
-
-function CoverArt() {
-  return (
-    <svg viewBox="0 0 520 380" className="w-full h-auto drop-shadow-sm" role="img" aria-label="Ilustración de alcancía con lentes">
-      <path d="M10 300 Q 260 340 510 300" fill="none" stroke="#0f172a" strokeWidth="3" />
-      <g>
-        <path d="M270 90 l 30 -20 l 40 25 l -35 25 z" fill="#10b981" opacity=".9" />
-        <path d="M250 70 l 25 -18 l 36 20 l -28 22 z" fill="#059669" opacity=".9" />
-      </g>
-      <path d="M120 170 q 30 -60 120 -60 q 140 0 170 110 q 10 40 -10 70 q -30 40 -170 40 q -140 0 -170 -60 q -20 -40 30 -100 z" fill="none" stroke="#0f172a" strokeWidth="6" strokeLinejoin="round" />
-      <path d="M210 120 q -10 25 10 35" fill="none" stroke="#0f172a" strokeWidth="6" strokeLinecap="round" />
-      <circle cx="210" cy="210" r="10" fill="#0f172a" />
-      <circle cx="180" cy="245" r="18" fill="white" stroke="#0f172a" strokeWidth="6" />
-      <circle cx="172" cy="245" r="4" fill="#0f172a" />
-      <circle cx="188" cy="245" r="4" fill="#0f172a" />
-      <path d="M220 315 l 0 20" stroke="#0f172a" strokeWidth="6" strokeLinecap="round" />
-      <path d="M360 315 l 0 20" stroke="#0f172a" strokeWidth="6" strokeLinecap="round" />
-      <rect x="180" y="190" width="120" height="28" rx="4" fill="#0f172a" />
-      <rect x="200" y="196" width="8" height="8" fill="white" />
-      <rect x="208" y="204" width="8" height="8" fill="white" />
-      <rect x="232" y="196" width="8" height="8" fill="white" />
-      <rect x="240" y="204" width="8" height="8" fill="white" />
-      <g stroke="#f59e0b" fill="none" strokeWidth="8">
-        <path d="M210 150 q 20 10 10 30 q -10 20 -35 25 q -20 5 -35 -10" />
-      </g>
-      <path d="M120 260 l 10 -16 l 10 16 l -10 16 z" fill="none" stroke="#0f172a" strokeWidth="4" />
-    </svg>
-  );
-}
-
-function LogoPig({ size = 24 }) {
-  return (
-    <svg viewBox="0 0 64 64" width={size} height={size} aria-hidden>
-      <circle cx="32" cy="36" r="22" fill="none" stroke="#0f172a" strokeWidth="3" />
-      <circle cx="26" cy="40" r="2" fill="#0f172a" />
-      <circle cx="38" cy="40" r="2" fill="#0f172a" />
-      <path d="M24 30 q 6 -6 16 0" fill="none" stroke="#0f172a" strokeWidth="3" />
-      <rect x="20" y="28" width="24" height="6" rx="2" fill="#0f172a" />
-      <path d="M34 16 l 8 -6 l 10 6 l -9 6 z" fill="#10b981" />
-    </svg>
   );
 }
 

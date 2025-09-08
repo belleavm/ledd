@@ -1,15 +1,47 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+    "/_not-found/page": [
+      "static/chunks/webpack-c8441f2d519541e3.js",
+      "static/chunks/fd9d1056-749e5812300142af.js",
+      "static/chunks/117-efad7214d41d45e3.js",
+      "static/chunks/main-app-50db89ad69a0f052.js",
+      "static/chunks/app/_not-found/page-a61de05f9c36a571.js"
     ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/chunks/webpack-c8441f2d519541e3.js",
+      "static/chunks/fd9d1056-749e5812300142af.js",
+      "static/chunks/117-efad7214d41d45e3.js",
+      "static/chunks/main-app-50db89ad69a0f052.js",
+      "static/css/d22e13b8d591889a.css",
+      "static/chunks/app/layout-73447860f415d36d.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack-c8441f2d519541e3.js",
+      "static/chunks/fd9d1056-749e5812300142af.js",
+      "static/chunks/117-efad7214d41d45e3.js",
+      "static/chunks/main-app-50db89ad69a0f052.js",
+      "static/chunks/app/about/page-81168f954929d305.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-c8441f2d519541e3.js",
+      "static/chunks/fd9d1056-749e5812300142af.js",
+      "static/chunks/117-efad7214d41d45e3.js",
+      "static/chunks/main-app-50db89ad69a0f052.js",
+      "static/chunks/app/page-bfb4cd3212ca1e74.js"
+    ],
+    "/la-energia-del-dinero/page": [
+      "static/chunks/webpack-c8441f2d519541e3.js",
+      "static/chunks/fd9d1056-749e5812300142af.js",
+      "static/chunks/117-efad7214d41d45e3.js",
+      "static/chunks/main-app-50db89ad69a0f052.js",
+      "static/chunks/app/la-energia-del-dinero/page-9765fec58b9a539b.js"
+    ],
+    "/contact/page": [
+      "static/chunks/webpack-c8441f2d519541e3.js",
+      "static/chunks/fd9d1056-749e5812300142af.js",
+      "static/chunks/117-efad7214d41d45e3.js",
+      "static/chunks/main-app-50db89ad69a0f052.js",
+      "static/chunks/app/contact/page-00dbe48c22e1ff44.js"
     ]
   }
 }
