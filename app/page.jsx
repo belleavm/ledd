@@ -145,8 +145,8 @@ export default function Page() {
           <h2 className="text-3xl font-extrabold">Empieza hoy</h2>
           <p className="mt-3 text-neutral-700">El mejor momento para ordenar tus finanzas era ayer. El segundo mejor es ahora.</p>
           <div className="mt-8 flex items-center justify-center gap-3">
-            <Button href="#">Comprar edición física</Button>
-            <ButtonOutline href="#">Ebook / Audiolibro</ButtonOutline>
+            <Button href="https://www.amazon.com/-/es/Claudio-Morgan-ebook/dp/B088JWV5K2/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=la+energia+del+dinero&qid=1634493874&sr=8-1">Comprar eBook</Button>
+            <ButtonOutline href="https://www.amazon.com/Energ%C3%ADa-del-Dinero-Creer-conscientemente/dp/B0CY4TCGQD/ref=tmm_aud_swatch_0?_encoding=UTF8&qid=1634493874&sr=8-1">Comprar Audiolibro</ButtonOutline>
           </div>
           <p className="mt-3 text-sm text-neutral-500">Pago seguro. Acceso inmediato a los recursos digitales.</p>
         </div>
@@ -176,10 +176,16 @@ export default function Page() {
           <div>
             <p className="font-semibold">Suscríbete</p>
             <p className="mt-2 text-neutral-600">Recibe nuevos ejercicios y actualizaciones de los QRs.</p>
-            <form className="mt-3 flex gap-2" action="#" method="post">
-              <input className="w-full border rounded-xl px-3 py-2" placeholder="tu@correo.com" />
-              <button className="inline-flex items-center justify-center rounded-xl border border-emerald-600 bg-emerald-600 px-4 py-2 text-white font-medium hover:bg-emerald-700 transition" type="submit">Unirme</button>
-            </form>
+            <div className="mt-3">
+              <a
+                href="https://tally.so/r/3yONyp"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center rounded-xl border border-emerald-600 bg-emerald-600 px-6 py-3 text-white font-medium hover:bg-emerald-700 transition"
+                >
+                Regístrate aquí
+              </a>
+            </div>
           </div>
         </div>
       </footer>
